@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright 2017 Divante Sp. z o.o.
+ * See LICENSE for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="after.body.start">
+            <block class="Divante\GoogleTagManager\Block\Gtm" name="gtm_iframe" template="Divante_GoogleTagManager::gtm_iframe.phtml" />
+        </referenceContainer>
+        <referenceBlock name="head.additional">
+            <block class="Divante\GoogleTagManager\Block\Gtm" name="gtm_js" template="Divante_GoogleTagManager::gtm_js.phtml" />
+        </referenceBlock>
+    </body>
+</page>
