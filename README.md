@@ -1,5 +1,5 @@
 ## Overview
-Divante Google Tag Manager is a basic module for Magento 2 to install your individual GTM ID and on every shop page.
+Divante Google Tag Manager is a basic module for Magento 2 to install your individual GTM ID on every shop page.
 
 ## Installation details
 Follow the steps to get well without trouble with the installation process.
