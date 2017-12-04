@@ -1,6 +1,12 @@
 {
   "name": "divante-ltd/magento2-gtm",
   "description": "Google Tag Manager module for Magento 2",
+  "keywords": [
+    "gtm",
+    "google tag manager",
+    "magento 2",
+    "divante"
+  ],
   "license": [
     "MIT"
   ],
